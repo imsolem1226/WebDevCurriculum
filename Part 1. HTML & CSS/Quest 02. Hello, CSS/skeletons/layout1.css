@@ -10,10 +10,18 @@ body {
 
 aside {
 	background-color: pink;
+	width: 200px;
+	position: absolute;	/*.main을 위로 올릴 수 있음*/
+	min-height: 1050px;
 	/* TODO: 이 곳을 채우세요! */
 }
 
 .main {
 	background-color: skyblue;
+	margin-left: 200px;
+	height: 100%;	
+	min-height: 1050px;
+	/*요소를 감싸는 박스 안에서 퍼센테이지로 나타낼 수 있음*/
+	/*최소높이 지정 : left box는 최소 높이가 1050px만큼을 지정*/;
 	/* TODO: 이 곳을 채우세요! */
 }

@@ -2,7 +2,7 @@ body {
 	position: absolute;
 	left: 0;
 	top: 0;
-	width: 100%;
+	min-width: 500px;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -10,15 +10,33 @@ body {
 
 .main {
 	background-color: skyblue;
+	margin-left: 200px;
+	margin-right: 300px;
+	
+	min-height: 1050px;
+	height: 100%;
+
 	/* TODO: 이 곳을 채우세요! */
 }
 
 .left {
 	background-color: pink;
-	/* TODO: 이 곳을 채우세요! */
+	width: 200px;
+	position: absolute;
+	height: 100%;
+	
+		/* TODO: 이 곳을 채우세요! */
 }
 
 .right {
 	background-color: greenyellow;
+	width: 300px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	min-height: 1050px;
+	height:100%;
+
+	
 	/* TODO: 이 곳을 채우세요! */
 }

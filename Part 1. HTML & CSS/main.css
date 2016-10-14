@@ -1,0 +1,46 @@
+dfd{
+	attribute: value;
+}
+h1{
+	color: blue;	
+	display: inline;
+}
+p{
+	word-break: break-all;
+	
+}
+
+.red{
+	color: red;
+}
+
+.blue{
+	color:blue;
+}
+/*선택자는 밑에있을수록 우선순위가 높다*/
+
+h2.yellow{
+	color:yellow;
+}
+
+/* id는 html내에서 유일해야 함, class보다는 좀 더 빠른 장점을 가짐 */
+#myh3{
+	color:green;
+}
+
+/*띄어쓰기를 통해 중첩구조된 것들만 선별하는게 가능, a in p*/
+p a{
+	color: black;
+}
+
+h2{
+	text-align: center;
+	font-size: 30px;
+	font-family: Arial;
+	background-color: yellow;
+	padding: 10px ;	
+	border: 5px solid black;
+	margin-top: 80px;
+
+	position: fixed;
+}
